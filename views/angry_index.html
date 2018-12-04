@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <a href="/"><h2>Homepage</h2></a>
+    <hr>
+    {{#theBirds}}
+    <a href="/angry_birds/{{id}}"><p>{{name}}</p></a>
+    <a href="/angry_birds/{{id}}"> <img src="{{image}}" alt="some_angry_bird"> </a>
+    <hr>
+    {{/theBirds}}
+</body>
+</html>
